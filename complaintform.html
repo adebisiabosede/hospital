@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>complaintform</title>
+<style>
+    .navigation{
+        background-color:wheat;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    a{
+        background-color: crimson;
+        color: white;     
+        text-align: center;
+        display:inline-block;
+        text-decoration: none; 
+        font-variant: small-caps;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+    a:hover{
+        background-color: rgb(61, 9, 250);
+    }
+    
+    .float{
+        float: right;  
+        clear: both;
+    }
+    
+@media only screen and (max-width: 700px){
+      
+        /* border: 1px soid;
+        margin-left: 5%; */
+        /* padding-top: 30px;
+        padding-bottom: 10px; */
+    }
+    
+    @media only screen and (max-width: 700px){
+    .a{
+        display:inline-block;
+        font-variant: small-caps;
+        margin-left:4%;
+        margin-top: 10%;
+    }   
+        
+        /* border: 1px soid;
+        margin-left: 5%; */
+        /* padding-top: 30px;
+        padding-bottom: 10px; */
+    }
+        
+@media only screen and (max-width: 700px){
+    .float{
+        float: left;  
+        margin-top: 2%;
+        /* clear: both; */
+    }
+}
+    .help{
+        text-align: center;
+        font-size:3em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+</style>
+<body>
+    <div style="background-color: darkcyan"><h2><marquee direction="right">visiting hour 9am-2pm everyday</marquee></div>
+    <div class="navigation" style="background-color:wheat">
+         <a href="index.html">home</a>
+         <a href="services.html" target="blank">services</a>
+         <a href="about.html">about us</a>       
+         <a href="hire.html">hire</a>
+         <a href="blog.html">blog</a>
+         <div class="float"><a href="complaintform.html" target="blank">log complain</a></div>
+    </div>
+    <div class="responsive"></div>
+    <div><img src="../pic/2.jpg" width=100% height="400px"></div>
+    <div class="help">Help Ann specialist transform...the future of health care<br></div>our doctors are here to attend to you 24/7hrs.type 
+             your complain here and wait fro their responds.thanks
+    <form>
+        <br>NAME:<br>
+        <input type="text" style="width: 45%" >
+        <br>E-MAIL:<br>
+        <input type="email" required style="width:45%">
+        <br>LOG YOUR COMPLAIN<br>
+        <textarea rows="10" cols="40" placeholder="Please provide your address"  style="width: 50%" ></textarea>
+        <p> </p>
+        <input type="submit" value="SUBMIT">
+                 
+    </form>
+</body>
+</head>
+</html>
